@@ -1,0 +1,12 @@
+Package: mgmisc1
+Type: Package
+Title: Package with handy function for analysis of amplicon sequencing data
+Version: 0.1.0.30092024
+Author: Marcin Golebiewski
+Maintainer: The package maintainer <mgoleb@umk.pl>
+Description: The package allows preparation of raw sequencing data for analyses and generation of publication-ready plots for community compsition, beta- and alpha-diversity and findig differentially abundant features. 
+License: GPLv3
+Encoding: UTF-8
+LazyData: true
+Imports: dada2, vegan, dplyr, ggplot2, mixOmics, DESeq2, ShortRead, ggpubr, patchwork, reshape2, reticulate, lessR, GUniFrac, RColorBrewer, ggplotify, ggsci, ggtext, import, paletteer, phangorn
+RoxygenNote: 7.3.2
